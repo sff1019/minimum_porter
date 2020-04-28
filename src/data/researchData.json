@@ -1,0 +1,27 @@
+{
+  "id": "research",
+  "en": {
+    "title": "Research",
+    "interests": {
+      "title": "Research Interests",
+      "description": "Machine Learning, Generalization of Deep Learning, Optimization, Affective Computing"
+    },
+    "publications": {
+      "title": "Publications",
+      "items": [
+      ]
+    }
+  },
+  "jp": {
+    "title": "Research",
+    "interests": {
+      "title": "Research Interests",
+      "description": "機械学習，深層学習の汎化，最適化，アフェクティブコンピューティング"
+    },
+    "publications": {
+      "title": "Publications",
+      "items": [
+      ]
+    }
+  }
+}

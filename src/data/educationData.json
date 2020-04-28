@@ -1,0 +1,77 @@
+{
+  "id": "education",
+  "en": {
+    "title": "Education",
+    "data": [
+      {
+        "title": "highschool",
+        "name": "Shirayuri High School",
+        "startYear": "2014",
+        "endYear": "2016",
+        "description": [
+          "Study abroad program with YFU. Studied in Michigan, USA for a year."
+        ]
+      },
+      {
+        "title": "bachelor",
+        "name": "Tokyo Institute of Technology",
+        "startYear": "2014",
+        "endYear": "2016",
+        "description": [
+          "GPA: 3.73 / 4.50",
+          "Bachelor thesis: 'Generalization measures using Information Matrices for Deep Neural Network' advised by Assoc. Prof. Rio Yokota",
+          "Tech Leader and Speaker team for TEDxTitech",
+          "Studied abroad with EPATS"
+        ]
+      },
+      {
+        "title": "master",
+        "name": "Tokyo Institute of Technology",
+        "startYear": "2014",
+        "endYear": "Curr",
+        "description": ["I will continue working with Assoc. Prof. Rio Yokota."]
+      }
+    ],
+    "img": {
+      "alt": "education.png",
+      "src": "../assets/education.png"
+    }
+  },
+  "jp": {
+    "title": "Education",
+    "data": [
+      {
+        "title": "highschool",
+        "name": "白百合学園高等学校",
+        "startYear": "2014",
+        "endYear": "2016",
+        "description": [
+          "高校1年の時に1年間アメリカのミシガン州にて高校留学を行った．"
+        ]
+      },
+      {
+        "title": "bachelor",
+        "name": "東京工業大学",
+        "startYear": "2014",
+        "endYear": "2016",
+        "description": [
+          "GPA: 3.73 / 4.50",
+          "卒業論文：「深層ニューラルネットワークにおける情報行列を用いた汎化指標誤差推定」（横田理央研究室）",
+          "TEDxTitechにてスピーカーチームやテックチームのリーダとして活動",
+          "EPATSという学生団体で海外留学を行なった"
+        ]
+      },
+      {
+        "title": "master",
+        "name": "東京工業大学",
+        "startYear": "2014",
+        "endYear": "Curr",
+        "description": ["引き続き横田理央研究室に所属する．"]
+      }
+    ],
+    "img": {
+      "alt": "education.png",
+      "src": "../assets/education.png"
+    }
+  }
+}

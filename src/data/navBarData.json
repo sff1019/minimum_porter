@@ -1,0 +1,7 @@
+[
+  {"content": "ABOUT", "id": "about", "link": "./"},
+  {"content": "EDUCATION", "id": "education", "link": "./education"},
+  {"content": "EXPERIENCES", "id": "experiences", "link": "./experiences"},
+  {"content": "RESEARCH", "id": "research", "link": "./research"},
+  {"content": "CONTACT", "id": "contact", "link": "./contact"}
+]
