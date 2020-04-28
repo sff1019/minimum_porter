@@ -53,7 +53,7 @@ class EventRaw extends React.Component<Props> {
           </Typography>
           <div className={classes.description}>
             <List className={classes.list}>
-            {description.map((item, num) =>
+            {description && description.map((item, num) =>
               <ListItem className={classes.listItem}>
                 <ListItemText
                   primary={item}

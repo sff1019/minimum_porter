@@ -53,17 +53,17 @@ class About extends React.Component<Props & RootStyles & Styles> {
                 </Typography>
                 <Grid item container className={classes.snsContainer}>
                   <Grid item>
-                    <Link href={getData(aboutData, locale).twitter} className={classes.snsLink}>
+                    <Link href={getData(aboutData, locale).twitter} className={classes.snsLink} target="_blank">
                       <FontAwesomeIcon className={classes.snsIcon} icon={faTwitterSquare} />
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link href={getData(aboutData, locale).linkdin} className={classes.snsLink}>
+                    <Link href={getData(aboutData, locale).linkdin} className={classes.snsLink} target="_blank">
                       <FontAwesomeIcon className={classes.snsIcon} icon={faLinkedin} />
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link href={getData(aboutData, locale).github} className={classes.snsLink}>
+                    <Link href={getData(aboutData, locale).github} className={classes.snsLink} target="_blank">
                       <FontAwesomeIcon className={classes.snsIcon} icon={faGithubSquare} />
                     </Link>
                   </Grid>
