@@ -34,3 +34,9 @@ This is a portfolio template
   }
   }
 ```
+
+## Deploy
+```
+$ npm run build
+$ npm run deploy
+```
