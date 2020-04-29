@@ -46,7 +46,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -b data -d build -r git@github.com:sh8/sh8.github.io.git"
+    "deploy": "npm run build && gh-pages -b master -d build -r git@github.com:sh8/sh8.github.io.git"
   },
   "eslintConfig": {
     "extends": "react-app"
