@@ -11,6 +11,10 @@ export const styles = (theme: Theme) => createStyles({
     paddingBottom: theme.spacing(2),
     paddingTop: theme.spacing(2),
   },
+  researchBody: {
+    paddingLeft: theme.spacing(2),
+    paddingBottom: theme.spacing(2)
+  }
 });
 
 export type Styles = WithStyles<typeof styles>;
