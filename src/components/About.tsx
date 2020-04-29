@@ -28,7 +28,7 @@ class About extends React.Component<Props & RootStyles & Styles> {
 
     return (
       <Paper className={classes.about} elevation={0}>
-        <Grid container spacing={2} className={classes.context}>
+        <Grid container className={classes.context}>
           <Grid item xs={12} md={6} className={classes.profileImageContainer}>
             <img
               className={classes.profileImage}
