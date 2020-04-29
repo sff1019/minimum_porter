@@ -40,7 +40,7 @@ class Education extends React.Component<Props & RootStyles & Styles> {
       <VisibilitySensor onChange={onChange}>
         <div id={educationData.id} className={classes.contentContainer}>
           <Grid container justify='center' spacing={2}>
-            <Grid item md={12} lg={8}>
+            <Grid item sm={12} md={8}>
               <Typography className={classes.contentTitle}>
                 {getData(educationData, locale).title}
               </Typography>
@@ -56,7 +56,7 @@ class Education extends React.Component<Props & RootStyles & Styles> {
                 ))}
               </Timeline>
             </Grid>
-            <Grid className={classes.sideImageContainer} item md={12} lg={4}>
+            <Grid className={classes.sideImageContainer} item sm={12} md={4}>
               <img
                 className={classes.sideImage}
                 alt={getData(educationData, locale).img.alt}

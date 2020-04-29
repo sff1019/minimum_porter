@@ -1,5 +1,6 @@
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link';
 import * as React from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
 
@@ -30,16 +31,17 @@ class Research extends React.Component<Props & RootStyles & Styles> {
       }
     };
 
-    const boldText = (num: number, str: string, isBold: string) => {
-      if (isBold === 'true') {
-        return (<span  key={num}><b>{str}</b>, </span>);
+    const boldText = (num: number, str: string, isBold: boolean, isLast: boolean) => {
+      let comma = isLast ? '' : ', ';
+      if (isBold) {
+        return (<span  key={num}><b>{str}</b>{comma}</span>);
       } else {
-        return (<span  key={num}>{str}, </span>);
+        return (<span  key={num}>{str}{comma}</span>);
       }
     };
 
     const researchList = (dict: any) => {
-      if (dict.items === undefined) {
+      if (dict.publications.items === undefined) {
         return (
           <Typography className={classes.researchDescription}>Work in Progress...</Typography>
         );
@@ -47,15 +49,24 @@ class Research extends React.Component<Props & RootStyles & Styles> {
         return (
           <div className={classes.researchDescription}>
             {dict.publications.items.map((data: any, num: number) => (
-              <div key={num}>
-                <Typography>{data.title}</Typography>
+              <div key={num} className={classes.researchBody}>
                 <Typography>
-                {data.authors.map((item: any, itemNum: number) => (
-                  boldText(itemNum, item.name, item.isMe)
-                ))}
+                  {data.url ? (
+                    <Link className={classes.link} href={data.url} target="_blank" rel="noopener">
+                      {data.title}
+                    </Link>
+                  ) : data.title}
+                </Typography>
+                <Typography>
+                {data.authors.map((item: any, itemNum: number) => {
+                  let isLast = false;
+                  if (itemNum === (data.authors.length - 1)) {
+                    isLast = true;
+                  }
+                  return boldText(itemNum, item.name, item.isMe, isLast)
+                })}
                 </Typography>
                 <Typography>{data.conference}</Typography>
-                <Typography>{data.link}</Typography>
               </div>
             ))}
           </div>
@@ -72,16 +83,19 @@ class Research extends React.Component<Props & RootStyles & Styles> {
         <Typography className={classes.contentTitle}>
           {getData(researchData, locale).title}
         </Typography>
-        <VisibilitySensor onChange={onChange}>
-          <div>
-            <Typography className={classes.contentSubTitle}>
-              {getData(researchData, locale).interests.title}
-            </Typography>
-            <Typography className={classes.researchDescription}>
-              {getData(researchData, locale).interests.description}
-            </Typography>
-          </div>
-        </VisibilitySensor>
+        { getData(researchData, locale).interests && (
+          <VisibilitySensor onChange={onChange}>
+            <div>
+              <Typography className={classes.contentSubTitle}>
+                {getData(researchData, locale).interests.title}
+              </Typography>
+              <Typography className={classes.researchDescription}>
+                {getData(researchData, locale).interests.description}
+              </Typography>
+            </div>
+          </VisibilitySensor>
+        )}
+        { getData(researchData, locale).publications && (
         <VisibilitySensor onChange={onChange}>
           <div>
             <Typography className={classes.contentSubTitle}>
@@ -90,6 +104,7 @@ class Research extends React.Component<Props & RootStyles & Styles> {
             {researchList(getData(researchData, locale))}
           </div>
         </VisibilitySensor>
+        )}
       </div>
     );
   }

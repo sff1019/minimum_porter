@@ -2,13 +2,12 @@ import { createStyles, Theme, WithStyles } from '@material-ui/core/styles';
 
 export const rootStyles = (theme: Theme) => createStyles({
   contentContainer: {
-    '@media (max-width: 600px)': {
-      margin: 0,
+    '@media (max-width: 960px)': {
+      margin: '20px',
     },
-    '@media (min-width: 1280px)': {
+    '@media (min-width: 960px)': {
       paddingLeft: '10px',
     },
-    margin: '20px',
     width: '100%',
   },
   contentDescription: {
@@ -120,6 +119,9 @@ export const rootStyles = (theme: Theme) => createStyles({
     fontSize: '4rem',
     fontWeight: 'bold',
   },
+  link: {
+    color: 'black',
+  }
 });
 
 export type RootStyles = WithStyles<typeof rootStyles>;

@@ -10,6 +10,7 @@ export const styles = (theme: Theme) => createStyles({
     fontSize: '1rem',
     paddingBottom: theme.spacing(2),
     paddingTop: theme.spacing(2),
+    paddingLeft: theme.spacing(2),
   },
   mailIcon: {
     '@media (max-width: 600px)': {
@@ -22,6 +23,7 @@ export const styles = (theme: Theme) => createStyles({
     '@media (max-width: 1280px)': {
       justifyContent: 'center',
     },
+    paddingLeft: theme.spacing(2),
   },
   snsIcon: {
     '@media (max-width: 600px)': {
