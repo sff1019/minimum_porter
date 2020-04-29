@@ -29,14 +29,14 @@ class About extends React.Component<Props & RootStyles & Styles> {
     return (
       <Paper className={classes.about} elevation={0}>
         <Grid container spacing={2} className={classes.context}>
-          <Grid item md={12} lg={6} className={classes.profileImageContainer}>
+          <Grid item xs={12} md={6} className={classes.profileImageContainer}>
             <img
               className={classes.profileImage}
               alt='profile.img'
               src={require('../assets/profile.png')}
             />
           </Grid>
-          <Grid item  md={12} lg={6} container className={classes.aboutContainer}>
+          <Grid item xs={12} md={6} container className={classes.aboutContainer}>
             <Grid
               item
               xs
@@ -53,17 +53,17 @@ class About extends React.Component<Props & RootStyles & Styles> {
                 </Typography>
                 <Grid item container className={classes.snsContainer}>
                   <Grid item>
-                    <Link href={getData(aboutData, locale).twitter} className={classes.snsLink} target="_blank">
+                    <Link href={getData(aboutData, locale).twitter} className={classes.snsLink} target="_blank" rel="noopener">
                       <FontAwesomeIcon className={classes.snsIcon} icon={faTwitterSquare} />
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link href={getData(aboutData, locale).linkdin} className={classes.snsLink} target="_blank">
+                    <Link href={getData(aboutData, locale).linkdin} className={classes.snsLink} target="_blank" rel="noopener">
                       <FontAwesomeIcon className={classes.snsIcon} icon={faLinkedin} />
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link href={getData(aboutData, locale).github} className={classes.snsLink} target="_blank">
+                    <Link href={getData(aboutData, locale).github} className={classes.snsLink} target="_blank" rel="noopener">
                       <FontAwesomeIcon className={classes.snsIcon} icon={faGithubSquare} />
                     </Link>
                   </Grid>
@@ -76,7 +76,7 @@ class About extends React.Component<Props & RootStyles & Styles> {
                                                         )}
                 </Grid>
                 <Grid item className={classes.cv}>
-                  <Link href='./assets/resume.pdf'>
+                  <Link href='/resume.pdf'>
                     Curriculum Vitae
                   </Link>
                 </Grid>

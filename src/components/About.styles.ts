@@ -52,20 +52,22 @@ export const styles = (theme: Theme) => createStyles({
     margin: '0',
   },
   profileImage: {
-    '@media (max-width: 1280px)': {
-      left: '50%',
-      transform: 'translate(-50%, -50%)',
+    '@media (max-width: 960px)': {
+      display: 'block',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      padding: theme.spacing(5),
+      width: '250px',
     },
-    '@media (min-width: 1280px)': {
+    '@media (min-width: 960px)': {
+      objectFit: 'contain',
+      position: 'relative',
+      top: '50%',
+      width: '50%',
       float: 'right',
       padding: theme.spacing(5),
       transform: 'translateY(-50%)',
     },
-    height: '70%',
-    objectFit: 'contain',
-    position: 'relative',
-    top: '50%',
-    width: '70%',
   },
   profileImageContainer: {
     maxHeight: '100%',

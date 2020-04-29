@@ -38,8 +38,8 @@ class Experience extends React.Component<Props & RootStyles & Styles> {
     return (
       <div id={experienceData.id} className={classes.contentContainer}>
         <VisibilitySensor onChange={onChange}>
-          <Grid container spacing={2}>
-            <Grid item md={12} lg={8}>
+          <Grid container justify='center' spacing={2}>
+            <Grid item sm={12} md={8}>
               <Typography className={classes.contentTitle}>
                 {getData(experienceData, locale).title}
               </Typography>
@@ -49,7 +49,7 @@ class Experience extends React.Component<Props & RootStyles & Styles> {
               <Timeline>
                 {getData(experienceData, locale).work.data.map((data: any, num: number) => (
                   <Event
-                    title={data.name}
+                    title={data.name + " (" + data.title + ")"}
                     description={data.description}
                     startTime={data.startYear}
                     endTime={data.endYear}
@@ -58,7 +58,7 @@ class Experience extends React.Component<Props & RootStyles & Styles> {
                 ))}
               </Timeline>
             </Grid>
-            <Grid className={classes.sideImageContainer} item md={12} lg={4}>
+            <Grid className={classes.sideImageContainer} item sm={12} md={4}>
               <img
                 className={classes.sideImage}
                 alt={getData(experienceData, locale).work.img.alt}
@@ -69,28 +69,24 @@ class Experience extends React.Component<Props & RootStyles & Styles> {
         </VisibilitySensor>
         <VisibilitySensor onChange={onChange}>
           <Grid container justify='center' spacing={2}>
-            <Grid item md={12} lg={8}>
+            <Grid item sm={12}>
               <Typography className={classes.contentSubTitle}>
                 {getData(experienceData, locale).honor.subtitle}
               </Typography>
-              <Timeline>
-                {getData(experienceData, locale).honor.data.map((data: any, num: number) => (
-                  <Event
-                    title={data.name}
-                    description={data.description}
-                    startTime={data.startYear}
-                    endTime={data.endYear}
-                    key={num}
-                  />
-                ))}
-              </Timeline>
-            </Grid>
-            <Grid className={classes.sideImageContainer} item md={12} lg={4}>
-              <img
-                className={classes.sideImage}
-                alt={getData(experienceData, locale).honor.img.alt}
-                src={require('../assets/education.png')}
-              />
+              <div className={classes.listContainer}>
+                <ul className={classes.list}>
+                  {getData(experienceData, locale).honor.data.map((data: any, num: number) => (
+                    <li className={classes.honor}>
+                      <label className={classes.icon}></label>
+                      <div className={classes.listBody}>
+                        <Typography className={classes.honorTitle}>
+                          {data.name}
+                        </Typography>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </Grid>
           </Grid>
         </VisibilitySensor>
