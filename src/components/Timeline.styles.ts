@@ -18,13 +18,13 @@ export const styles = (theme: Theme) => createStyles({
   date: {
     '@media (max-width: 600px)': {
       fontSize: '0.7rem',
-      padding: '0.25em 1em 0.2em 1em',
+      padding: '0 1em 0.2em 1em',
       textAlign: 'center',
       width: '25%',
     },
     display: 'block',
     margin: 0,
-    padding: '0.25em 1.2em 0.2em 1em',
+    padding: '0 1.2em 0.2em 1em',
     position: 'absolute',
     textAlign: 'right',
     transform: 'translateX(-100%)',
