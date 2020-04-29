@@ -6,46 +6,62 @@
       "subtitle": "Work",
       "data": [
         {
-          "title": "intern",
+          "title": "Intern",
+          "name": "Techouse, inc.",
+          "startYear": "2014.Aug",
+          "endYear": "2015.Aug",
+          "description": [
+            "Developed an internship recruiting media with Ruby on Rails"
+          ]
+        },
+        {
+          "title": "Intern",
+          "name": "SORACOM, inc.",
+          "startYear": "2015.Sep",
+          "endYear": "2017.Aug",
+          "description": [
+            "Developed a data analysis system",
+            "Developed a web console of SORACOM Air with AngularJS",
+            "Developed demonstration products for SORACOM Air"
+          ]
+        },
+        {
+          "title": "CEO / Founder",
           "name": "Axon Inc.",
-          "startYear": "2018.Jan",
-          "endYear": "2019.Sep",
+          "startYear": "2016.June",
+          "endYear": "Curr",
           "description": [
-            "Front-end and Back-end engineer",
-            "Created several websites (front-end + back-end) using multiple frameworks.",
-            "Built a business inteligence system that will extract metrics from Facebook and Instagram, and save it in a database. Using this accumulated data, I have also built a visualization system."
+            "Developed a game title prediction system using screen shots - Mirrativ, inc.",
+            "Developed a paper analysis system - Sakata Mori Laboratory at The University of Tokyo",
+            "Developed a frontend and backend of a video webmedia with ReactJS and Go - Babel, inc.",
+            "Developed a smartphone application with ReactNative - Aisaac, inc."
           ]
         },
         {
-          "title": "kajikawaRa",
-          "name": "Research Assistant (Kajikawa Lab.)",
-          "startYear": "2019.Jan",
-          "endYear": "2020.Mar",
+          "title": "Research Assistant",
+          "name": "AIST AIRC",
+          "startYear": "2018.Oct",
+          "endYear": "2019.Oct",
           "description": [
-            "Helped build the Fukan System",
-            "Wrote using React + Redux + Typescript"
+            "Researched change detection of street city images"
           ]
         },
         {
-          "title": "summerIntern",
-          "name": "AlpacaJapan Co., Ltd.",
+          "title": "Intern",
+          "name": "Telexistence, inc.",
+          "startYear": "2019.Apr",
+          "endYear": "2019.Oct",
+          "description": [
+            "Researched 3D object pose estimation"
+          ]
+        },
+        {
+          "title": "Intern",
+          "name": "Fixstars, inc.",
           "startYear": "2019.Aug",
-          "endYear": "2019.Sep",
+          "endYear": "2019.Aug",
           "description": [
-            "Machine Learning Engineer",
-            "Build a model to predict the stock market trends.",
-            "Build a Tensorflow-based AutoMl model, AdaNet, using PyTorch"
-          ]
-        },
-        {
-          "title": "stepIntern",
-          "name": "Google Japan",
-          "startYear": "2019.Oct",
-          "endYear": "2019.Nov",
-          "description": [
-            "Joined as a STEP Intern, and worked at the SUGC team (GEO)",
-            "Migrated the back-end server of the reviews widget to a new one",
-            "Migrated the front-end of the reviews widget from legacy to a new Google oriented UI framework"
+            "Researched deep learning based model compression"
           ]
         }
       ],
@@ -58,43 +74,22 @@
       "subtitle": "Honors and Scholarships",
       "data": [
         {
-          "title": "epats",
-          "name": "EPATS",
-          "startYear": "2017",
-          "endYear": "2019",
-          "description": [
-            "EPATS has funded my study abroad program during the summer of 2018.",
-            "Planned our own study abroad program, and made appointments by ourselves.",
-            "Traveled to 4 cities in the States, and visited numerous labs and comapnies to broadem my horizon."
-          ]
+          "name": "Best Idea Award at JPHacks 2016"
         },
         {
-          "title": "wtm",
-          "name": "Women Techmakers 2018, Representative of Japan",
-          "startYear": "2018",
-          "endYear": "",
-          "description": [
-            "A scholarship program funded by Google."
-          ]
+          "name": "Grand Prize at Microsoft Imagine Cup Japan 2017"
         },
         {
-          "title": "hult2018",
-          "name": "Hult Prize, Tokyo Institute of Technology (Finalist)",
-          "startYear": "2018",
-          "endYear": "",
-          "description": [
-            "Finalist at the Hult Prize competition in TokyoTech, along with 3 other fellow students."
-          ]
+          "name": "Top 32 at Microsoft Imagine Cup World"
         },
         {
-          "title": "ghc2019",
-          "name": "Grace Hopper Conference Travel Scholar",
-          "startYear": "2019",
-          "endYear": "",
-          "description": [
-            "GHC Travel Scholar was funded by Google",
-            "Joined Grace Hopper Conference in Orlando to attend numerous lectures and retreat programs."
-          ]
+          "name": "2017 TokyoTech Leadership Awarrd"
+        },
+        {
+          "name": "1st Generation Scholarship Student of KUMA Foundation"
+        },
+        {
+          "name": "Scholarship Student of Yoshida Scholarship Foundation"
         }
       ],
       "img": {
@@ -109,46 +104,62 @@
       "subtitle": "Work",
       "data": [
         {
-          "title": "intern",
+          "title": "インターン",
+          "name": "株式会社Techouse",
+          "startYear": "2014.Aug",
+          "endYear": "2015.Aug",
+          "description": [
+            "インターンシップ求人メディアJEEKの開発 (Ruby on Rails)"
+          ]
+        },
+        {
+          "title": "インターン",
+          "name": "株式会社ソラコム",
+          "startYear": "2015.Sep",
+          "endYear": "2017.Aug",
+          "description": [
+            "データ分析システムの開発",
+            "フロントエンド開発 (AngularJS)",
+            "SORACOM Airを用いたデモプロダクトの開発"
+          ]
+        },
+        {
+          "title": "CEO / 創業者",
           "name": "Axon Inc.",
-          "startYear": "2018.Jan",
-          "endYear": "2019.Sep",
+          "startYear": "2016.June",
+          "endYear": "Curr",
           "description": [
-            "フロントエンド＋バックエンド担当",
-            "複数のウェブサイトをフロントとバックエンドの作成",
-            "ビジネスインテリジェンスツールを作成．主なソーシャルメディアの情報をAPIを用いてとり，可視化するサービスの作成"
+            "スクリーンショットを用いたゲームタイトル推定システムの開発 - 株式会社ミラティブ",
+            "学術論文分析システムの開発 - 東京大学 坂田・森研究室",
+            "動画メディアのフロントエンド(ReactJS)およびバックエンド開発(Go) - 株式会社バベル",
+            "スマートフォン向けアプリケーションの開発 (React Native)"
           ]
         },
         {
-          "title": "kajikawaRa",
-          "name": "Research Assistant (Kajikawa Lab.)",
-          "startYear": "2019.Jan",
-          "endYear": "2020.Mar",
+          "title": "RA",
+          "name": "産業総合研究所 人工知能研究センター",
+          "startYear": "2018.Oct",
+          "endYear": "2019.Oct",
           "description": [
-            "俯瞰システムの移行を手伝った",
-            "ReactJS + Redux + Typescriptを用いた"
+            "市街地画像における変化検出手法の研究開発"
           ]
         },
         {
-          "title": "summerIntern",
-          "name": "AlpacaJapan Co., Ltd.",
+          "title": "インターン",
+          "name": "株式会社テレイグジスタンス",
+          "startYear": "2019.Apr",
+          "endYear": "2019.Oct",
+          "description": [
+            "3次元物体検出に関する研究開発"
+          ]
+        },
+        {
+          "title": "インターン",
+          "name": "株式会社フィックスターズ",
           "startYear": "2019.Aug",
-          "endYear": "2019.Sep",
+          "endYear": "2019.Aug",
           "description": [
-            "機械学習エンジニアのインターン",
-            "株価を予測する機械学習モデルの作成",
-            "Tensorflowを用いたAutoMLモデル，AdaNetをPyTorchを用いて作成した"
-          ]
-        },
-        {
-          "title": "stepIntern",
-          "name": "Google Japan",
-          "startYear": "2019.Oct",
-          "endYear": "2019.Nov",
-          "description": [
-            "GEOのSUGCチームにSTEPインターンとして参加",
-            "Google Mapsのレビュー画面のバックエンドを新しいGoogle独自のサーバに移行",
-            "バックエンドの移行に伴い，フロントエンドも新たなフレームワークに移行"
+            "物体検出モデルの軽量化に関する研究開発"
           ]
         }
       ],
@@ -161,44 +172,22 @@
       "subtitle": "Honors and Scholarships",
       "data": [
         {
-          "title": "epats",
-          "name": "EPATS",
-          "startYear": "2017",
-          "endYear": "2019",
-          "description": [
-            "奨学金：アメリカ留学費用",
-            "1年かけて渡航プランを学生自ら練り，アポイントメントをとる",
-            "4つの都市に赴き，多くの企業と研究室を訪問することで多くの議論や体験をし，視野を広げることを目的とした"
-          ]
+          "name": "2016年度 JPHacks ベストアイディア賞"
         },
         {
-          "title": "wtm",
-          "name": "Women Techmakers 2018, Representative of Japan",
-          "startYear": "2018",
-          "endYear": "",
-          "description": [
-            "奨学金：Googleが支援する情報系に属する女性を支援するプログラム (0.3%)",
-            "シンガポールのGoogleオフィスにおけるリトリートプログラムの全額負担",
-            "様々な活動の支援"
-          ]
+          "name": "2017年度 Microsoft Imagine Cup Japan 最優秀賞"
         },
         {
-          "title": "hult2018",
-          "name": "Hult Prize, Tokyo Institute of Technology (Finalist)",
-          "startYear": "2018",
-          "endYear": "",
-          "description": [
-            "東京工業大学で開催されたHult Prize 2018のファイナリストに選ばれた"
-          ]
+          "name": "2017年度 Microsoft Imagine Cup World トップ32"
         },
         {
-          "title": "ghc2019",
-          "name": "Grace Hopper Conference Travel Scholar",
-          "startYear": "2019",
-          "endYear": "",
-          "description": [
-            "奨学金：フロリダで開催されているGrace Hopper Confereceに参加するための奨学金"
-          ]
+          "name": "2017年度 東工大学生リーダーシップ賞 受賞"
+        },
+        {
+          "name": "2018年度 公益財団法人クマ財団 第一期生"
+        },
+        {
+          "name": "2020年度 公益財団法人吉田育英会 派遣交換留学プログラム 奨学生"
         }
       ],
       "img": {

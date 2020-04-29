@@ -2,25 +2,135 @@
   "id": "research",
   "en": {
     "title": "Research",
-    "interests": {
-      "title": "Research Interests",
-      "description": "Machine Learning, Generalization of Deep Learning, Optimization, Affective Computing"
-    },
     "publications": {
       "title": "Publications",
       "items": [
+        {
+          "title": "Hyperparameter Optimization of Large Scale Parallel Deep Learning using Natural Gradient Approximation Method",
+          "authors": [
+            {
+              "name": "Hiroki Naganuma",
+              "isMe": false
+            },
+            {
+              "name": "Shun Iwase",
+              "isMe": true
+            },
+            {
+              "name": "Linsho Kaku",
+              "isMe": false
+            },
+            {
+              "name": "Hikaru Nakata",
+              "isMe": false
+            },
+            {
+              "name": "Rio Yokota",
+              "isMe": false
+            }
+          ],
+          "conference": "FIT2018",
+          "url": "https://www.ipsj.or.jp/event/fit/fit2018/FIT2018_program_web/data/html/abstract/B-005.html"
+        },
+        {
+          "title": "Object-based scene change detection considering attributes of change",
+          "authors": [
+            {
+              "name": "Shun Iwase",
+              "isMe": true
+            },
+            {
+              "name": "Ken Sakurada",
+              "isMe": false
+            }
+          ],
+          "conference": "MIRU2019"
+        },
+        {
+          "title": "Verification of the Reducing the Number of Iterations in Large Mini-Batch Training by Applying Mixup",
+          "authors": [
+            {
+              "name": "Hiroki Naganuma",
+              "isMe": false
+            },
+            {
+              "name": "Shun Iwase",
+              "isMe": true
+            },
+            {
+              "name": "Rio Yokota",
+              "isMe": false
+            }
+          ],
+          "conference": "xSig2019"
+        }
       ]
     }
   },
   "jp": {
     "title": "Research",
-    "interests": {
-      "title": "Research Interests",
-      "description": "機械学習，深層学習の汎化，最適化，アフェクティブコンピューティング"
-    },
     "publications": {
       "title": "Publications",
       "items": [
+        {
+          "title": "自然勾配近似法を用いた大規模並列深層学習におけるハイパーパラメータ最適化",
+          "authors": [
+            {
+              "name": "長沼 大樹",
+              "isMe": false
+            },
+            {
+              "name": "岩瀬 駿",
+              "isMe": true
+            },
+            {
+              "name": "郭 林昇",
+              "isMe": false
+            },
+            {
+              "name": "中田 光",
+              "isMe": false
+            },
+            {
+              "name": "横田 理央",
+              "isMe": false
+            }
+          ],
+          "conference": "FIT2018",
+          "url": "https://www.ipsj.or.jp/event/fit/fit2018/FIT2018_program_web/data/html/abstract/B-005.html"
+        },
+        {
+          "title": "変化の属性を考慮した物体レベルのシーン変化検出",
+          "authors": [
+            {
+              "name": "岩瀬 駿",
+              "isMe": true
+            },
+            {
+              "name": "櫻田 健",
+              "isMe": false
+            }
+          ],
+          "conference": "MIRU2019"
+        },
+        {
+          "title": "Mixup適用によるラージバッチ学習における反復数削減可能性の検証",
+          "authors": [
+            {
+              "name": "長沼 大樹",
+              "isMe": false
+            },
+            {
+              "name": "岩瀬 駿",
+              "isMe": true
+            },
+            {
+              "name": "横田 理央",
+              "isMe": false
+            }
+          ],
+          "conference": "xSig2019"
+        }
       ]
     }
   }

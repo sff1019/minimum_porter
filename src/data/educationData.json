@@ -4,32 +4,36 @@
     "title": "Education",
     "data": [
       {
-        "title": "highschool",
-        "name": "Shirayuri High School",
+        "name": "Chuo Univ Suginami High School",
+        "startYear": "2010",
+        "endYear": "2013"
+      },
+      {
+        "name": "Tokyo Institute of Technology, B.E in Electrical Engineering",
         "startYear": "2014",
-        "endYear": "2016",
+        "endYear": "2018",
         "description": [
-          "Study abroad program with YFU. Studied in Michigan, USA for a year."
+          "GPA: 3.55 / 4.0",
+          "Mar 2017 Exchange Student in Georgia Tech"
         ]
       },
       {
-        "title": "bachelor",
-        "name": "Tokyo Institute of Technology",
-        "startYear": "2014",
-        "endYear": "2016",
+        "name": "Tokyo Institute of Technology, M.E in Computer Science",
+        "startYear": "2018",
+        "endYear": "2020",
         "description": [
-          "GPA: 3.73 / 4.50",
-          "Bachelor thesis: 'Generalization measures using Information Matrices for Deep Neural Network' advised by Assoc. Prof. Rio Yokota",
-          "Tech Leader and Speaker team for TEDxTitech",
-          "Studied abroad with EPATS"
+          "GPA: 4.0 / 4.0",
+          "Advisor: Prof. Rio Yokota",
+          "Researched 2D object detection, and change detection",
+          "Researched hyper-parameter optimization for deep learning",
+          "Developed a hyper-parameter optimization library for a distributed GPU cluster (https://polaris.readthedocs.io)",
+          "Summa Cum Laude in Computerv Science Cource"
         ]
       },
       {
-        "title": "master",
-        "name": "Tokyo Institute of Technology",
-        "startYear": "2014",
-        "endYear": "Curr",
-        "description": ["I will continue working with Assoc. Prof. Rio Yokota."]
+        "name": "Carnegie Mellon University, M.S in Robotics",
+        "startYear": "2020",
+        "endYear": "2022?"
       }
     ],
     "img": {
@@ -41,32 +45,36 @@
     "title": "Education",
     "data": [
       {
-        "title": "highschool",
-        "name": "白百合学園高等学校",
+        "name": "中央大学杉並高等学校",
+        "startYear": "2010",
+        "endYear": "2013"
+      },
+      {
+        "name": "東京工業大学 第五類 (工学部電気電子工学科)",
         "startYear": "2014",
-        "endYear": "2016",
+        "endYear": "2018",
         "description": [
-          "高校1年の時に1年間アメリカのミシガン州にて高校留学を行った．"
+          "GPA: 3.55 / 4.0",
+          "2017年3月 ジョージア工科大学 短期留学"
         ]
       },
       {
-        "title": "bachelor",
-        "name": "東京工業大学",
-        "startYear": "2014",
-        "endYear": "2016",
+        "name": "東京工業大学 情報理工学院 修士課程",
+        "startYear": "2018",
+        "endYear": "2020",
         "description": [
-          "GPA: 3.73 / 4.50",
-          "卒業論文：「深層ニューラルネットワークにおける情報行列を用いた汎化指標誤差推定」（横田理央研究室）",
-          "TEDxTitechにてスピーカーチームやテックチームのリーダとして活動",
-          "EPATSという学生団体で海外留学を行なった"
+          "GPA: 4.0 / 4.0",
+          "指導教員: 横田理央 准教授",
+          "変化検出および物体検出に関する研究",
+          "深層学習モデルのハイパーパラメタ最適化に関する研究",
+          "分散GPUハイパーパラメタ最適化ライブラリの開発 (https://polaris.readthedocs.io)",
+          "情報工学系 情報工学コース 総代"
         ]
       },
       {
-        "title": "master",
-        "name": "東京工業大学",
-        "startYear": "2014",
-        "endYear": "Curr",
-        "description": ["引き続き横田理央研究室に所属する．"]
+        "name": "カーネギーメロン大学 ロボティクス研究所 修士課程",
+        "startYear": "2020",
+        "endYear": "2022?"
       }
     ],
     "img": {
