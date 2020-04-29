@@ -3,14 +3,13 @@ import { createStyles, Theme, WithStyles } from '@material-ui/core/styles';
 export const styles = (theme: Theme) => createStyles({
   body: {
     '@media (max-width: 600px)': {
-      padding: '1em 1em 0 1em',
+      padding: '1em 0 0 1em',
       top: '-1em',
       width: '90%',
     },
     padding: '2em 2em 0 2em',
     position: 'relative',
     top: '-2.075em',
-    width: '95%',
   },
   container: {
     letterSpacing: '0.05em',
@@ -21,7 +20,7 @@ export const styles = (theme: Theme) => createStyles({
       fontSize: '0.7rem',
       padding: '0.25em 1em 0.2em 1em',
       textAlign: 'center',
-      width: theme.spacing(9),
+      width: '25%',
     },
     display: 'block',
     margin: 0,
@@ -42,9 +41,6 @@ export const styles = (theme: Theme) => createStyles({
     paddingTop: theme.spacing(1),
   },
   event: {
-    '@media (max-width: 600px)': {
-      width: '98%',
-    },
     position: 'relative',
   },
   eventTitle: {
@@ -91,12 +87,11 @@ export const styles = (theme: Theme) => createStyles({
       width: '80%',
     },
     '@media (max-width: 600px)': {
-      paddingLeft: '5.5em',
       width: 'auto',
     },
     listStyle: 'none',
     maxWidth: '90%',
-    paddingLeft: '7em',
+    paddingLeft: '25%',
     paddingTop: '1em',
     position: 'relative',
   },

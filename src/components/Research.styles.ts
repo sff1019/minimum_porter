@@ -12,7 +12,9 @@ export const styles = (theme: Theme) => createStyles({
     paddingTop: theme.spacing(2),
   },
   researchBody: {
-    paddingLeft: theme.spacing(2),
+    '@media (min-width: 960px)': {
+      paddingLeft: theme.spacing(2),
+    },
     paddingBottom: theme.spacing(2)
   }
 });
