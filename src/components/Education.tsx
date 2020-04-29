@@ -39,7 +39,7 @@ class Education extends React.Component<Props & RootStyles & Styles> {
     return (
       <VisibilitySensor onChange={onChange}>
         <div id={educationData.id} className={classes.contentContainer}>
-          <Grid container justify='center' spacing={2}>
+          <Grid container justify='center'>
             <Grid item sm={12} md={8}>
               <Typography className={classes.contentTitle}>
                 {getData(educationData, locale).title}
