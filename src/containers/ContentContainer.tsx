@@ -49,7 +49,7 @@ class ContentContainer extends React.Component<Handlers & Props & Styles> {
     return (
       <div>
         <Paper elevation={0}>
-          <Grid container spacing={2}>
+          <Grid container>
             <Grid item sm={2} xs={12} className={classes.sideNavContainer}>
               <SideNav
                 currentContent={currentContent}

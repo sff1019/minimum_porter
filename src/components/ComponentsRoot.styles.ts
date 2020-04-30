@@ -3,7 +3,7 @@ import { createStyles, Theme, WithStyles } from '@material-ui/core/styles';
 export const rootStyles = (theme: Theme) => createStyles({
   contentContainer: {
     '@media (max-width: 960px)': {
-      margin: '20px',
+      margin: '0',
     },
     '@media (min-width: 960px)': {
       paddingLeft: '10px',

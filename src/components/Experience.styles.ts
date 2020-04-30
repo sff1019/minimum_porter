@@ -6,10 +6,11 @@ export const styles = (theme: Theme) => createStyles({
   list: {
     '@media (max-width: 1280px)': {
       width: '80%',
+      paddingLeft: '5em',
     },
     '@media (max-width: 600px)': {
-      paddingLeft: '5.5em',
-      width: 'auto',
+      textAlign: 'center',
+      paddingLeft: '3em',
     },
     listStyle: 'none',
     maxWidth: '90%',
@@ -28,9 +29,6 @@ export const styles = (theme: Theme) => createStyles({
     width: '0.8em',
   },
   honor: {
-    '@media (max-width: 600px)': {
-      width: '98%',
-    },
     position: 'relative',
   },
   honorTitle: {
@@ -42,13 +40,11 @@ export const styles = (theme: Theme) => createStyles({
   },
   listBody: {
     '@media (max-width: 600px)': {
-      padding: '1em 1em 0 1em',
-      width: '90%',
+      padding: '1.1em 1em 0 1em',
     },
     padding: '1em 2em 0 2em',
     position: 'relative',
     top: '-2.075em',
-    width: '95%',
   },
 });
 

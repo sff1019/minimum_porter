@@ -80,10 +80,11 @@ export const styles = (theme: Theme) => createStyles({
     flexGrow: 1,
   },
   translate: {
-    '@media (min-width: 960px)': {
-      paddingRight: theme.spacing(3),
-      paddingTop: theme.spacing(3),
+    '@media (max-width: 960px)': {
+      display: 'none',
     },
+    paddingRight: theme.spacing(3),
+    paddingTop: theme.spacing(3),
     position: 'absolute',
     right: '0',
     top: '0',
