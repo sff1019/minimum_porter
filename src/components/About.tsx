@@ -42,7 +42,6 @@ class About extends React.Component<Props & RootStyles & Styles> {
               xs
               container
               direction="column"
-              spacing={2}
               wrap={'nowrap'}
               className={classes.aboutContextWrapper}
             >

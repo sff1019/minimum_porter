@@ -10,23 +10,20 @@ export const styles = (theme: Theme) => createStyles({
     position: 'relative',
   },
   aboutContainer: {
-    '@media (max-width: 1280px)': {
-      height: '50%',
-    },
+    width: '100%'
   },
   aboutContext: {
-    '@media (max-width: 1280px)': {
+    '@media (max-width: 960px)': {
       textAlign: 'center',
     },
-    '@media (min-width: 1280px)': {
-      height: '70%',
+    '@media (min-width: 960px)': {
       position: 'relative',
       top: '50%',
       transform: 'translateY(-50%)',
     },
   },
   aboutContextWrapper: {
-    '@media (max-width: 1280px)': {
+    '@media (max-width: 960px)': {
       margin: '0 auto',
     },
     maxWidth: '80%',
@@ -35,7 +32,6 @@ export const styles = (theme: Theme) => createStyles({
     '@media (min-width: 1280px)': {
       '-webkit-transform': 'translateY(-50%)',
       maxHeight: '100%',
-      maxWidth: '80%',
       position: 'absolute',
       top: '50%',
       transform: 'translateY(-50%)',
@@ -52,26 +48,30 @@ export const styles = (theme: Theme) => createStyles({
     margin: '0',
   },
   profileImage: {
-    '@media (max-width: 960px)': {
-      display: 'block',
-      marginLeft: 'auto',
-      marginRight: 'auto',
-      padding: theme.spacing(5),
-      width: '250px',
+    '@media (max-width: 1280px)': {
+      left: '50%',
+      transform: 'translate(-50%, -50%)',
     },
-    '@media (min-width: 960px)': {
-      objectFit: 'contain',
-      position: 'relative',
-      top: '50%',
-      width: '50%',
+    '@media (min-width: 1280px)': {
       float: 'right',
       padding: theme.spacing(5),
       transform: 'translateY(-50%)',
     },
+    objectFit: 'contain',
+    position: 'relative',
+    top: '50%',
+    width: '70%',
   },
   profileImageContainer: {
-    maxHeight: '100%',
-    maxWidth: '100%',
+    '@media (max-width: 960px)': {
+      margin: '0 auto',
+      maxHeight: '80%',
+      maxWidth: '80%',
+    },
+    '@media (min-width: 960px)': {
+      maxHeight: '100%',
+      maxWidth: '100%',
+    },
   },
   role: {
     '@media (max-width: 600px)': {
@@ -81,12 +81,12 @@ export const styles = (theme: Theme) => createStyles({
     marginTop: '10px',
   },
   snsContainer: {
-    '@media (max-width: 1280px)': {
+    '@media (max-width: 960px)': {
       justifyContent: 'center',
     },
   },
   snsIcon: {
-    fontSize: '2.5rem',
+    fontSize: '2.0rem',
     paddingBottom: theme.spacing(3),
     paddingLeft: theme.spacing(1.5),
     paddingRight: theme.spacing(1.5),

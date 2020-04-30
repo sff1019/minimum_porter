@@ -19,6 +19,10 @@ export const styles = (theme: Theme) => createStyles({
   emptyContainer: {
     flexGrow: 1,
   },
+  mobileAppBar: {
+    background: 'white',
+    color: 'black',
+  },
   menuButton: {
       marginRight: theme.spacing(2),
   },
@@ -26,8 +30,6 @@ export const styles = (theme: Theme) => createStyles({
     '@media (min-width: 960px)': {
       display: 'none',
     },
-    background: 'white',
-    color: 'black',
   },
   mobileNavItemText: {
     cursor: 'pointer',

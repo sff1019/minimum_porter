@@ -15,12 +15,17 @@ export const styles = (theme: Theme) => createStyles({
       top: '0',
       zIndex: '-1',
     },
-    '@media (min-width: 1280px)': {
+    '@media (min-width: 960px)': {
       height: '100vh',
     },
     display: 'flex',
     flexDirection: 'column',
     position: 'relative',
+  },
+  mobileToolbar: {
+    '@media (min-width: 960px)': {
+      visibility: 'hidden',
+    },
   },
   translateButton: {
     fontSize: '0.8rem',

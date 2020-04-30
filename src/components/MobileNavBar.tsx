@@ -40,8 +40,8 @@ class NavBar extends React.Component<Props & Styles> {
     const onClick = () => handleMobileMenu(false);
 
     return (
-      <div>
-        <AppBar elevation={0} className={classes.mobileContainer}>
+      <div className={classes.mobileContainer}>
+        <AppBar elevation={0} className={classes.mobileAppBar} >
           <Toolbar className={classes.toolbarContainer}>
             <IconButton
               edge="start"
@@ -82,6 +82,7 @@ class NavBar extends React.Component<Props & Styles> {
             </List>
           </div>
         </Drawer>
+        <Toolbar />
       </div>
     );
   }

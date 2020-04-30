@@ -65,7 +65,6 @@ class AboutContainer extends React.Component<Handlers & Props & Styles> {
             onTranslationClick={onClick}
             translationButton={translationButton}
           />
-          <Toolbar />
           <About locale={locale} />
         </div>
       </ScrollableSection>
