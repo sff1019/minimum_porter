@@ -48,19 +48,20 @@ export const styles = (theme: Theme) => createStyles({
     margin: '0',
   },
   profileImage: {
-    '@media (max-width: 1280px)': {
+    '@media (max-width: 960px)': {
       left: '50%',
       transform: 'translate(-50%, -50%)',
+      width: '70%',
     },
-    '@media (min-width: 1280px)': {
+    '@media (min-width: 960px)': {
       float: 'right',
-      padding: theme.spacing(5),
+      padding: theme.spacing(10),
       transform: 'translateY(-50%)',
+      width: '55%',
     },
     objectFit: 'contain',
     position: 'relative',
     top: '50%',
-    width: '70%',
   },
   profileImageContainer: {
     '@media (max-width: 960px)': {
