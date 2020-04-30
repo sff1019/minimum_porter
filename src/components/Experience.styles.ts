@@ -40,7 +40,7 @@ export const styles = (theme: Theme) => createStyles({
   },
   listBody: {
     '@media (max-width: 600px)': {
-      padding: '1em 1em 0 1em',
+      padding: '1.1em 1em 0 1em',
     },
     padding: '1em 2em 0 2em',
     position: 'relative',
