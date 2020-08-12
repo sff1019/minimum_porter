@@ -7,7 +7,7 @@
     "twitter": "https://twitter.com/sf_f1019",
     "linkdin": "https://www.linkedin.com/in/hanna-hoshino/",
     "github": "https://github.com/sff1019",
-    "description": "Hi, nice to meet you!\n I am currently a master's student at Rio Yokota Lab at Tokyo Institute of Technology (TokyoTech), majoring in CS. I am interested in Machine Learning, and my main research area is Deep Learning, more on the theory side, and working on becoming an experimental Deep Learning researcher. I finished my bachelor degree in CS at TokyoTech, as well.\n I like to improve my Vim environment, and looove customizing / creating vim color schemes ;)",
+    "description": "Hi, nice to meet you!\n I am currently a master's student at Rio Yokota Lab at Tokyo Institute of Technology (TokyoTech), majoring in CS. I am interested in Machine Learning, and my main research area is Reinforecement Learning and Inverse Reinforcement Learning, aiming to create an AI that can interact with us. I finished my bachelor degree in CS at TokyoTech, as well.\n I like to improve my Vim environment, and looove customizing / creating vim color schemes ;)",
     "cv": "hoge/hoge"
   },
   "jp": {
@@ -18,7 +18,7 @@
     "twitter": "https://twitter.com/sf_f1019",
     "linkdin": "https://www.linkedin.com/in/hanna-hoshino/",
     "github": "https://github.com/sff1019",
-    "description": "こんにちは！\n横田理央研究室修士1年の星野です．専攻は情報工学系 情報工学コースです．現在，機械学習，特に理論寄りの深層学習を研究しており，将来的には深層学習の理論と応用の架け橋になるような研究がしたいと考えています（まだまだ道のりは長そうです...）！\n趣味としてVimの環境構築などを行っており，特にカラースキームをいじったり，作ったりするのが好きです！！",
+    "description": "こんにちは！\n横田理央研究室修士1年の星野です．専攻は情報工学系 情報工学コースです．現在，機械学習，特に強化学習や逆強化学習の研究を行っています！\n趣味としてVimの環境構築などを行っており，特にカラースキームをいじったり，作ったりするのが好きです！！",
     "cv": "hoge/hoge"
   }
 }

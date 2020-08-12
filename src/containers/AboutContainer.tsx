@@ -1,5 +1,4 @@
 import { withStyles } from '@material-ui/core/styles';
-import Toolbar from '@material-ui/core/Toolbar';
 import * as React from 'react';
 import { connect } from "react-redux";
 import ScrollableSection from 'react-update-url-on-scroll';
